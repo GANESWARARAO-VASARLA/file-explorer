@@ -19,7 +19,7 @@ function App() {
       }
       <main className={style.main}>
         <Routes>
-          <Route path='/' element={<NavigatePersist to='/editor' />} />
+          <Route path='/' element={<EditorPage />} />
           <Route path='/editor' element={<EditorPage />} />
           <Route path='/editor/:parentId/:folderId' element={<EditorPage />} />
           <Route path='/editor/:parentId/:folderId/:fileId' element={<EditorPage />} />
